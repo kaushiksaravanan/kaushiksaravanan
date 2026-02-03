@@ -21,8 +21,8 @@ I'm a passionate software engineer with expertise in building production-grade A
 
 ## 🚀 Key Achievements
 
-- **GDPR-Compliant RAG Platform:** Engineered a privacy-first RAG platform for SAP's internal chatbot with 94% recall and 2s E2E latency, scaled to 2M+ documents
-- **AI/ML Expertise:** Fine-tuned DeBERTa for multilingual PII/PHI detection (91 F1 score) for healthcare applications
+- **GDPR-Compliant RAG Platform:** Engineered a privacy-first RAG platform for SAP's internal chatbot and 2s E2E latency, scaled to large quantity of documents
+- **AI/ML Expertise:** Fine-tuned DeBERTa for multilingual PII/PHI detection for healthcare applications
 - **Performance Optimization:** Reduced data retrieval from 180s to 2s and cloud metrics aggregation from 15s to 2s using batching, caching, and async optimization
 - **Research & Publications:** 2 IEEE papers published on autonomous vehicle intrusion detection and intelligent transportation systems
 - **Leadership:** Designed and delivered workshops on Agentic AI and MLOps to 25+ engineers; lead member of SAP Global Early Talent Board 2025
