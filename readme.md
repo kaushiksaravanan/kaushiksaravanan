@@ -1,100 +1,74 @@
 # Hi 👋, I'm Kaushik
 
-## Associate Application Engineer @ SAP | AI/LLM Engineer | Full Stack Developer
+**MS in AI Engineering @ Carnegie Mellon** · Previously Developer Associate @ SAP Labs India
 
-I'm a passionate software engineer with expertise in building production-grade AI systems, privacy-first architectures, and cloud-native applications. Currently at **SAP Labs India**, focusing on GDPR-compliant Retrieval-Augmented Generation (RAG) platforms and agentic AI systems.
-
----
-
-## 🎯 About Me
-
-**Background:** Software Development Engineer with a strong foundation in Full-Stack Development, Machine Learning, and DevOps from PSG College of Technology (BTech IT, CGPA: 9.54/10)
-
-**Current Focus:**
-- 🤖 Building privacy-centric AI systems with RAG and LLMs
-- 🔐 GDPR & privacy compliance in production systems
-- ☁️ Cloud-native architectures (GCP, Azure, SAP BTP)
-- 🔧 MLOps and production-scale data pipelines
-- 📊 Multi-step reasoning agents and agentic AI
+I build production AI systems. Two years shipping RAG pipelines, agentic workflows, and infrastructure at SAP, now at CMU working on RL post-training for LLM agents.
 
 ---
 
-## 🚀 Key Achievements
+## 🔭 Currently
 
-- **GDPR-Compliant RAG Platform:** Engineered a privacy-first RAG platform for SAP's internal chatbot and 2s E2E latency, scaled to large quantity of documents
-- **AI/ML Expertise:** Fine-tuned DeBERTa for multilingual PII/PHI detection for healthcare applications
-- **Performance Optimization:** Reduced data retrieval from 180s to 2s and cloud metrics aggregation from 15s to 2s using batching, caching, and async optimization
-- **Research & Publications:** 2 IEEE papers published on autonomous vehicle intrusion detection and intelligent transportation systems
-- **Leadership:** Designed and delivered workshops on Agentic AI and MLOps to 25+ engineers; lead member of SAP Global Early Talent Board 2025
+- Post-training LLM agents with SFT and GRPO on Meta and Hugging Face's **OpenEnv**
+- MS in AI Engineering, Carnegie Mellon ECE (Dec 2027)
+- Open to **Summer 2027 internships** in AI engineering, RL post-training, and ML infrastructure
 
 ---
 
-## 💻 Tech Stack
+## 🚀 Selected Work
 
-**Languages:** Python, Go, TypeScript, Java, ABAP
+### Long-Horizon RL Benchmark for Clinical Trial Recruitment · 2026
+180-step agentic RL environment built on the OpenEnv spec, with an 8-action tool interface and multi-component reward across three difficulty tiers. Trained Qwen3-1.7B in TRL using SFT warmup plus GRPO on LoRA adapters, diagnosing policy collapse across 5+ failed runs. Ten anti-collapse interventions raised tool calls per rollout from 3.5 to 11.
 
-**ML/AI:** PyTorch, TensorFlow, Hugging Face, LangChain, ChromaDB, HNSW
+*Writeup covers what failed as well as what worked, including the finding that the context window ceiling mattered more than any reward shaping.*
 
-**Cloud & Infrastructure:** GCP, Microsoft Azure, SAP BTP, Docker, Kubernetes
+### Antigravity AutoAccept · VS Code Extension · 2026
+Automates AI agent file edits and terminal commands with zero configuration. **9,000+ downloads** on the Open VSX registry. Five-strategy auto-approval engine built after reverse-engineering the IDE's missing canonical accept command, spanning VS Code Extension API injection, event-driven polling, and a Chrome DevTools Protocol WebSocket fallback that traverses shadow DOM. Includes safety blocks for dangerous commands.
 
-**Databases:** PostgreSQL, ChromaDB, Vector Databases
+### Production RAG Platform @ SAP · 2024–2026
+Privacy-first RAG pipeline over **2M+ enterprise documents** serving 400+ users at sub-2s p95 latency. Fine-tuned DeBERTa-base for German PII entity extraction. Diagnosed a ChromaDB performance regression with upstream maintainers and fixed index cleanup and write-logging bottlenecks.
 
-**Tools & Frameworks:** FastAPI, Flask, Jenkins, Git, CI/CD, Linux
+Presented at SAP's developer conference two years running — selected from **1,000+ submissions** in 2025 for the privacy-preserving chatbot work.
 
----
+### Agentic AI for Database Operations @ SAP · 2026
+Co-developed three LangGraph-orchestrated systems for SAP HANA operations and security: closed-loop detect-analyze-remediate agents for system diagnostics, self-healing infrastructure sub-agents, and a multi-agent security pipeline classifying findings against OWASP and CVSS before generating refactored code.
 
-## 📚 Recent Projects
-
-### SentinelPII - Multilingual PII/PHI Redaction System
-- Built hybrid multilingual PII/PHI detection using DeBERTa, QLoRA, spaCy, and Presidio
-- Achieved 91 F1 score with 200ms inference latency
-- GE Healthcare Hackathon - Top 12 Global Finalist
-
-### Real-time Multimedia File Indexer
-- GPU-accelerated system for semantic search and indexing
-- National Hackathon Winner (SIH 2022, AT980)
-- Adopted by Madhya Pradesh Police
+### Real-time Multimedia File Indexer · 2022–2023
+Multi-format ingestion pipeline routing 25+ file types through format-specific extractors, including OCR for embedded document images and Hindi/English speech-to-text. **1st Place, Smart India Hackathon National Grand Finale** (Ministry of Education, India). Deployed by Madhya Pradesh Police.
 
 ---
 
-## 🎓 Education
+## 📄 Publications
 
-**Bachelor of Technology in Information Technology**  
-PSG College of Technology, Coimbatore  
-*Oct 2020 - Apr 2024*
-- CGPA: 9.54/10
-- Rank: 4/136 (Best Outgoing Student)
-- Departmental Top Graduate
+- ML-based intrusion detection for autonomous vehicles — *IEEE*
+- Swarm intelligence for intelligent transportation systems — *IEEE*
 
 ---
 
-## 🏆 Honors & Awards
+## 💻 Tech
 
-- ⭐ Best Outgoing Student - Information Technology Department (Apr 2024)
-- 🥇 Excellence Award - Samsung PRISM Research Initiative (Nov 2023)
-- 🥇 Smart India Hackathon Winner - SIH 2022 (1,200 Cash Prize)
-- 💪 Meta Hacker Cup - Qualified Round 2 (2022-2025)
-- 🎖️ Reply Code Challenge - Global Rank 270
+**Languages** · Python, Go, TypeScript
 
----
+**ML / Post-Training** · GRPO, SFT, LoRA, TRL, PyTorch, Hugging Face, OpenEnv, DeBERTa, Qwen3, RAG, LangGraph
 
-## 📊 GitHub Statistics
+**Infrastructure** · FastAPI, React, Docker, Jenkins, ChromaDB, Nginx
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kaushiksaravanan&show_icons=true&theme=dark)](https://github.com/kaushiksaravanan)
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kaushiksaravanan&layout=compact&theme=dark)](https://github.com/kaushiksaravanan)
+**Cloud** · Google Cloud Platform, Microsoft Azure, OpenStack
 
 ---
 
-## 🔗 Connect with Me
+## 🏆 Recognition
 
-- 📧 Email: [kaushik.s.saravanan@gmail.com](mailto:kaushik.s.saravanan@gmail.com)
-- 💼 LinkedIn: [linkedin.com/in/kaushik-ss](https://linkedin.com/in/kaushik-ss)
-- 🌐 Portfolio: [kaushiksaravanan.vercel.app](https://kaushiksaravanan.vercel.app/)
-- 📝 Blog: [ampersnow.substack.com](https://ampersnow.substack.com/)
+- **1 of 24 globally** — SAP Product & Engineering Early Talent Board 2025. Led a three-person cross-regional team and presented to 17+ senior leaders including an Executive Board member.
+- **Best Outgoing Student**, IT Department — PSG College of Technology (CGPA 9.54/10, Rank 4/136)
+- **1st Place** — Smart India Hackathon National Grand Finale 2022
+- **Top 12 of 496 teams** — GE HealthCare Precision Care Hackathon
+- **Excellence Award** — Samsung PRISM Research Initiative
 
 ---
 
-**Open to opportunities in:** AI Systems | Privacy Engineering | Cloud-Native Development | MLOps | Full-Stack Development
+## 🔗 Connect
 
-⭐ *Feel free to explore my repositories and reach out for collaborations!*
+📧 [kaushik.s.saravanan@gmail.com](mailto:kaushik.s.saravanan@gmail.com) ·
+💼 [LinkedIn](https://linkedin.com/in/kaushiksss) ·
+🌐 [Portfolio](https://kaushiksaravanan.vercel.app/) ·
+📝 [Blog](https://ampersnow.substack.com/)
